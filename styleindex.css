@@ -1,0 +1,80 @@
+html {
+  position: relative;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header div img {
+  height: 80px;
+}
+.header div p {
+  font-size: 24px;
+  color: green;
+}
+.menu-bar {
+  display: flex;
+  list-style: none;
+  color: white;
+  background-color: green;
+  justify-content: center;
+}
+.menu-bar li {
+  padding: 8px 24px;
+}
+.banner img {
+  width: 100%;
+  margin-top: -16px;
+}
+.pinkroses {
+  display: flex;
+}
+.pinkroses div img {
+  max-width: 100%;
+}
+.pinkroses-content {
+  margin-left: 12px;
+}
+.pink-color {
+  color: rgb(214, 65, 170);
+}
+.cyan-color {
+  color: rgb(66, 180, 180);
+}
+.title {
+  text-align: center;
+  color: green;
+}
+.bestseller {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+.bestseller > div {
+  text-align: center;
+}
+.bestseller > div {
+  margin: 0 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.red-color {
+  color: red;
+}
+.buy-button {
+  background-color: orangered;
+  color: white;
+  border: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+.footer {
+  background-color: green;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: 180px;
+}
